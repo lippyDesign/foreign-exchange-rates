@@ -1,0 +1,45 @@
+h1, h2 {
+    text-align: center;
+}
+ul {
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid gray;
+}
+li:last-child {
+    border: none;
+}
+li:nth-child(even) {
+    background: #F1F1F1;
+}
+li button {
+    color: #0077CC;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+.container {
+    margin: 10px 30px;
+}
+@media(max-width:485px) {
+    .container {
+        margin: 10px 10px;
+    }
+}
+@media(max-width:435px) {
+    .container {
+        margin: 10px 1px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
